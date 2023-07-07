@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class GoogleMainPage extends BasePage{
 
-    SelenideElement googleLogo = $("[alt='Googleee']");
+    SelenideElement googleLogo = $("[alt='Googleeed']");
 
     public GoogleMainPage checkIfLogoIsVisible(){
         googleLogo.shouldBe(visible);
